@@ -1,0 +1,21 @@
+name: Feature request
+description: Something you'd like PoRaBar to do.
+labels: ["feature request"]
+body:
+  - type: dropdown
+    id: device
+    attributes:
+      label: Device
+      options:
+        - iPhone
+        - Mac
+        - Both
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like, and why?
+      description: Tell us what you're trying to do. That helps more than a solution alone.
+    validations:
+      required: true

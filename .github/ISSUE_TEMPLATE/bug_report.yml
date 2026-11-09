@@ -1,0 +1,46 @@
+name: Bug report
+description: Something in PoRaBar doesn't work the way it should.
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: device
+    attributes:
+      label: Device
+      options:
+        - iPhone
+        - Mac
+        - Both
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: PoRaBar version
+      description: In the app under More → About, or in the App Store.
+      placeholder: "1.4.5"
+  - type: dropdown
+    id: area
+    attributes:
+      label: Where does it happen?
+      options:
+        - Audiobookshelf
+        - Radio
+        - Podcasts
+        - YouTube
+        - Sync between iPhone and Mac
+        - Purchase or trial
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what did you expect?
+      description: Steps to reproduce help a lot. For a radio station, add its name and country.
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Screenshots, your iOS or macOS version, your Audiobookshelf server version. Please don't post server addresses or passwords.

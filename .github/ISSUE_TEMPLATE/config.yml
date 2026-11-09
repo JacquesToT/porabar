@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Email support
+    url: mailto:support@porabar.com
+    about: Rather not post in public? Send an email.
+  - name: Website
+    url: https://porabar.com
+    about: Features, pricing and privacy policy.
