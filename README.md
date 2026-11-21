@@ -1,10 +1,13 @@
-# PoRaBar: internet radio, podcasts and Audiobookshelf for iPhone and Mac
+# PRB (PoRaBar): radio, podcasts, Jellyfin and Audiobookshelf for iPhone and Mac
 
 ![PoRaBar](images/banner.png)
 
-PoRaBar is one player for internet radio, podcasts, YouTube livestreams and your own
-[Audiobookshelf](https://www.audiobookshelf.org) library. On the Mac it lives in the menu bar. On the iPhone
+PoRaBar is one player for internet radio, podcasts, YouTube livestreams, your own
+[Jellyfin](https://jellyfin.org) and [Audiobookshelf](https://www.audiobookshelf.org) servers, and music or
+audiobook folders on your own device. On the Mac it lives in the menu bar, in a window, or both. On the iPhone
 it is a normal app. Stations, shows and where you stopped follow you between the two.
+
+Since version 1.4.7 (Mac) and 1.4.6 (iPhone) the App Store name is **Podcast Radio & Music - PRB**. Same app.
 
 **This repository is for bug reports, feature requests and feedback.** The app itself is not open source.
 
@@ -17,6 +20,19 @@ it is a normal app. Stations, shows and where you stopped follow you between the
   <img src="images/nowplaying.png" width="230" alt="Now Playing screen">
   <img src="images/discover.png" width="230" alt="Discover tab with radio stations">
 </p>
+
+## Jellyfin
+
+- Connect your own Jellyfin server and play its music and audiobooks.
+- A Home page, genres, Instant Mix, synced lyrics and your server playlists.
+- Download whole albums and playlists to listen offline.
+- In CarPlay, Jellyfin has its own tile.
+
+## Your own files
+
+- Music Local: link folders of your own music. PoRaBar plays the files where they are, without copying them,
+  with artists, albums and genres.
+- Audiobooks Local: link your audiobook folders and browse them by category. The next book starts when one ends.
 
 ## Audiobookshelf
 
@@ -40,9 +56,16 @@ it is a normal app. Stations, shows and where you stopped follow you between the
 - Follow shows, with offline listening, likes and a queue. Progress and favorites stay in sync.
 - Add YouTube videos, livestreams and playlists and listen to them as audio, without a video window.
 
+## Playlists, Up Next and search
+
+- Playlists can mix songs, episodes, stations, books and videos. They sync between your devices and can have
+  their own cover.
+- Up Next has Playing Next, Continue from and Later, plus Autoplay when the music runs out.
+- One search box for radio, podcasts, YouTube, Jellyfin, Audiobookshelf and your own files.
+
 ## On the Mac
 
-- Lives in the menu bar, one click from anywhere. A Dock icon only while a window is open, and you can turn
+- Use it in the menu bar, as a window, or both. In the menu bar it is one click from anywhere. A Dock icon only while a window is open, and you can turn
   that off.
 - Sleep timer, AirPlay and a choice of output device.
 - Hand off playback between your iPhone and your Mac.
@@ -62,8 +85,12 @@ from the ⓘ button on a station). Once three stations are approved, the full ap
 Yes. The Mac version connects to your Audiobookshelf server just like the iPhone version, with the same
 library, search, Authors page and synced progress.
 
+**Is PoRaBar a Jellyfin client?**
+Yes, since version 1.4.7 on the Mac and 1.4.6 on the iPhone. It plays the music and audiobooks on your
+Jellyfin server, and can download albums and playlists for offline listening.
+
 **Do I need an account?**
-Not for PoRaBar. For audiobooks you sign in to your own Audiobookshelf server.
+Not for PoRaBar. For your own server you sign in to that server (Jellyfin or Audiobookshelf).
 
 **Is there a subscription?**
 No. A one-time purchase, after a 60-day free trial.
